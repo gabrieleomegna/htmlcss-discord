@@ -15,7 +15,7 @@ div, #upper-hdr nav {
 /* HEADER */
 header {
     height: 230px;
-    /* background-color: red; */
+    background-color:rgb(37, 94, 233); ;
 }
 
 /* Upper header */
@@ -24,8 +24,8 @@ header {
     background-color:rgb(37, 94, 233);
 }
 .nav-bar-size {
-    width: 60%;
-    height: calc(100% - 1rem);
+    width: 70%;
+    margin: .5rem 0;
 }
 .display-flex {
     display: flex;
@@ -48,8 +48,8 @@ header {
     justify-content: flex-end;
 }
 .button-size {
-    padding: 1rem;
-    border-radius: 2px;
+    padding: .3rem 1.5rem;
+    border-radius: 20px;
 }
 
 /* HEADER NAV */
@@ -57,10 +57,10 @@ nav.link-list > ul {
     list-style: none;
 }
 nav.link-list > ul li {
-    padding: 0rem .3rem;
+    padding: 0rem 1rem;
 }
 section#upper-hdr .nav-bar-size {
-    background-color: rgb(222, 162, 23);
+    /* background-color: rgb(222, 162, 23); */
 }
 /* .hdr-line-height {
     line-height: 2rem;
@@ -70,7 +70,9 @@ section#upper-hdr .nav-bar-size {
 #bottom-hdr {
     height: 80%;
     background-image: url(./../img/jumbo.png);
-    background-size: contain;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 .different-size{
     width: 45%;
@@ -89,7 +91,7 @@ main {
     height: 20%;
 }
 .common-size {
-    width: 60%;
+    width: 70%;
     height: calc(100% - 2rem);
 }
 .box-blue {
@@ -140,9 +142,7 @@ footer {
     align-items: center;
     justify-content: space-between;
 }
-button {
-    border: 1px dashed black;
-}
+
 .bg-jade-green {
     background-color: rgb(127, 255, 212);
 }
