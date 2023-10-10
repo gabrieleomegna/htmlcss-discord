@@ -21,7 +21,7 @@ header {
 /* Upper header */
 #upper-hdr {
     height: 20%;
-    background-color: rgb(49, 97, 224);
+    background-color:rgb(37, 94, 233);
 }
 .nav-bar-size {
     width: 60%;
@@ -46,6 +46,10 @@ header {
 }
 #flex-end {
     justify-content: flex-end;
+}
+.button-size {
+    padding: 1rem;
+    border-radius: 2px;
 }
 
 /* HEADER NAV */
