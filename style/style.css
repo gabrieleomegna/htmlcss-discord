@@ -89,20 +89,12 @@ nav.link-list > ul li {
  }
 
 /* MAIN */
-main {
-    /* height: 900px; */
-    /* background-color: aquamarine; */
-}
-.main-section {
-    /* height: 20%; */
-}
 .common-size {
     width: 70%;
     /* height: calc(100% - 2rem); */
 }
 /* BOX WHERE IMAGES ARE PLACED */
 .main-box-image {
-    background-color: rgb(30, 144, 255);
     width: 60%;
 }
 .main-box-image img {
@@ -111,9 +103,11 @@ main {
 /* BOX WHERE THERE ARE DESCRIPTIONS */
 .main-box-description {
     width: 40%;
-    background-color: rgb(255, 192, 203);
     align-self: stretch;
     padding: 0 4rem;
+}
+.main-box-description > h1 {
+    font-size: 2rem;
 }
 .display-flex-p {
     display: flex;
@@ -123,10 +117,13 @@ main {
 .main-box-description p {
     padding: 3rem 0 0;
 }
-
 .bg-grey {
     background-color: rgb(211, 211, 211);
 }
+.main-section {
+    padding: 4rem 0;
+}
+/* MAIN SECTION BIGGER */
 .main-section-box-green {
     height: 40%;
 }
