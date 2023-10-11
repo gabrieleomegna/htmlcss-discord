@@ -155,28 +155,55 @@ h1 {
 
 /* FOOTER */
 footer {
-    height: 300px ;
+    /* height: 300px ; */
     background-color: rgb(35, 39, 42);
 }
 #upper-footer {
-    height: 80%;
+    /* height: 80%; */
     border-bottom: 1px solid white;
     align-items: flex-start;
-    padding-top: 0.3rem;
+    padding-top: 1rem;
+    color: white;
 }
-#bottom-footer {
-    height: 20%;
-    /* border: 1px solid white; */
-    align-items: flex-end;
-}
-.box-footer {
+#box-footer {
     width: 30%;
-    background-color: rgb(240, 128, 128);
+    /* background-color: rgb(240, 128, 128); */
+    align-self: stretch;
+    padding-right: 10rem;
+}
+#box-footer h2 {
+    color:rgb(114, 137, 218);
+}
+#box-footer p {
+    margin-top: 1.3rem;
+}
+#box-footer img {
+    height: 13px;
+    width: auto;
+    vertical-align: middle;
 }
 .little-box-footer {
     width: calc(70% / 4);
-    background-color: rgb(32, 178, 170);
+    /* background-color: rgb(32, 178, 170); */
     border-color: white;
+    align-self: stretch;
+}
+.list-footer {
+    list-style: none;
+    font-size: .8rem;
+}
+ul.list-footer :first-child {
+    font-weight: 900;
+    color: rgb(114, 137, 218);
+}
+ul.list-footer li {
+    margin-top: .5rem;
+}
+
+#bottom-footer {
+    /* height: 20%; */
+    /* border: 1px solid white; */
+    align-items: flex-end;
 }
 .display-flex-nav-bar {
     display: flex;
