@@ -8,19 +8,21 @@ body {
     font-family: 'Cabin', sans-serif;
 }
 
-div, #upper-hdr nav {
-    /* background-color: blueviolet; */
+.border-test {
     border: 1px dashed black;
 }
-/* HEADER */
+ 
+/* div, #upper-hdr nav {
+    /* background-color: blueviolet;
+    border: 1px dashed black;
+} */
+/*  HEADER  */
 header {
-    height: 230px;
-    background-color:rgb(37, 94, 233); ;
-}
+    color: white;
+} 
 
 /* Upper header */
 #upper-hdr {
-    height: 20%;
     background-color:rgb(37, 94, 233);
 }
 .nav-bar-size {
@@ -48,8 +50,9 @@ header {
     justify-content: flex-end;
 }
 .button-size {
-    padding: .3rem 1.5rem;
+    padding: .6rem 1rem;
     border-radius: 20px;
+    border: 0;
 }
 
 /* HEADER NAV */
@@ -59,28 +62,31 @@ nav.link-list > ul {
 nav.link-list > ul li {
     padding: 0rem 1rem;
 }
-section#upper-hdr .nav-bar-size {
-    /* background-color: rgb(222, 162, 23); */
-}
-/* .hdr-line-height {
-    line-height: 2rem;
-} */
 
 /* Bottom header */
 #bottom-hdr {
-    height: 80%;
     background-image: url(./../img/jumbo.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    padding: 9rem 0;
 }
-.different-size{
+.box-different-size{
     width: 45%;
-    height: calc(100% - 2.5rem);
+    /* height: calc(100% - 2.5rem); */
+    text-align: center;
 }
-.bg-pink {
-    background-color: rgb(238, 130, 238);
-}
+ .box-different-size > h1{
+    font-size: 2rem;
+    padding: 0 1rem 1rem;
+ }
+ .box-different-size > p {
+    padding: 1rem;
+ }
+ .box-different-size button:nth-of-type(2) {
+    background-color: rgb(35, 39, 42);
+    color: white;
+ }
 
 /* MAIN */
 main {
