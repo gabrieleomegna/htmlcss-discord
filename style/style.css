@@ -119,19 +119,12 @@ h1 {
     padding-top: 2rem;
     line-height: 1.5rem;
 }
-.bg-grey {
-    background-color: rgb(211, 211, 211);
-}
+
 .main-section {
     padding: 6rem 0;
 }
 /* MAIN SECTION BIGGER */
-.main-last-section {
-    /* height: 40%; */
-}
-#big-box-image {
-    
-}
+
 #big-box-image img {
     width: 100%;
 }
@@ -142,7 +135,22 @@ h1 {
 #big-box-description p {
     line-height: 1.5rem;
     padding: 2rem 9rem 0rem;
-
+}
+/* Main-last-section  */
+#section-download {
+    text-align: center;
+    margin-bottom: 8rem;
+}
+#section-download h2 {
+    background-image: url(./../img/stars.svg);
+    background-size: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#section-download button {
+    margin-top: 2rem;
+    color: white;
+    background-color: rgb(142, 161, 225);
 }
 
 /* FOOTER */
